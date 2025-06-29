@@ -13,7 +13,9 @@
     "format": "prettier --write 'src/**/*.{ts,tsx,scss,css,json,md}'"
   },
   "dependencies": {
+    "@pixi/react": "^8.0.0-beta.25",
     "@reduxjs/toolkit": "^2.8.2",
+    "pixi.js": "^8.10.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-redux": "^9.2.0"

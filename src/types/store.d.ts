@@ -1,4 +1,6 @@
-import { store } from '../store';
-
-export type RootState = ReturnType<typeof store.getState>;
-export type AppDispatch = typeof store.dispatch;
+export interface PomodoroState {
+  duration: number; // ustawiony czas (w sekundach)
+  remaining: number; // pozostały czas
+  isRunning: boolean;
+  mode: 'work' | 'short-break' | 'long-break';
+}
